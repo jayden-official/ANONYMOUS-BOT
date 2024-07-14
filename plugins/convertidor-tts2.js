@@ -19,7 +19,7 @@ const handler = async (m, { conn, usedPrefix, command, text, args }) => {
 
   if (!efecto) {
     let voiceList = await getVoiceList();
-    let responseText = `https://github.com/Khalid-official *[❗] You have not entered an effect, please enter a voice effect.*\n\n*—◉ Choose one of the following effects:*\n`;
+    let responseText = `https://github.com/jayden-official *[❗] You have not entered an effect, please enter a voice effect.*\n\n*—◉ Choose one of the following effects:*\n`;
 
     for (let i = 0, count = 0; count < 100 && i < voiceList.resultado.length; i++) {
       const entry = voiceList.resultado[i];
