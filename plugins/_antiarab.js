@@ -6,7 +6,7 @@ let bot = global.db.data.settings[conn.user.jid] || {}
 if (isBotAdmin && chat.antiArab2 && !isAdmin && !isOwner && !isROwner && bot.restrict) {
 
 if (m.sender.startsWith('92' || '92')) {
-m.reply(`*[❗]Arabic or psuedos numbers are not allowed in this group, so you will be removed from the group*`)
+m.reply(`*[❗]Arabic or psuedos numbers are not allowed in this group, so you will be kicked from the group*`)
 let responseb = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 if (responseb[0].status === "404") return 
 }
