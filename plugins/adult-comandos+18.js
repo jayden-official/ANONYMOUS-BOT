@@ -1,7 +1,7 @@
 import axios from 'axios';
 import fetch from 'node-fetch';
 const handler = async (m, {command, conn}) => {
-  if (!db.data.chats[m.chat].modohorny && m.isGroup) throw 'https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] The +18 commands are disabled in this group if you are admin and want to activate them use the command #enable horny mode*';
+  if (!db.data.chats[m.chat].modohorny && m.isGroup) throw 'https://github.com/jayden-official *[❗𝐈𝐍𝐅𝐎❗] The +18 commands are disabled in this group if you are admin and want to activate them use the command #enable horny mode*';
 
   if (command == 'nsfwloli') {
     const res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwloli.json`)).data;
