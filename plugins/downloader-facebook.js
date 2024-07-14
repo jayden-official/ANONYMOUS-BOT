@@ -5,10 +5,10 @@ import fbDownloader from 'fb-downloader-scrapper'
 import { facebook } from "@xct007/frieren-scraper"
 import axios from 'axios'
 let handler = async (m, { conn, args, command, usedPrefix }) => {
-if (!args[0]) throw `https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] ENTER FACEBOOK LINK, EXAMPLE: ${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/` 
-if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] Enter a valid Facebook link, example : ${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/`
+if (!args[0]) throw `https://github.com/jayden-official *[❗𝐈𝐍𝐅𝐎❗] ENTER FACEBOOK LINK, EXAMPLE: ${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/` 
+if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `https://github.com/jayden-official *[❗𝐈𝐍𝐅𝐎❗] Enter a valid Facebook link, example : ${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/`
 try {
-await m.reply(`https://github.com/Khalid-official *[❗] wait as I send your video. Shipping of the video depends on the size. Wait 2-4 minutes ...*`)      
+await m.reply(`https://github.com/jayden-official *[❗] wait as I send your video. Shipping of the video depends on the size. Wait 2-4 minutes ...*`)      
 const d2ata = await facebook.v1(args[0]);
 let r2es = '';
 if (d2ata.urls && d2ata.urls.length > 0) {
@@ -46,22 +46,22 @@ try {
 let vio = await fetch(`https://api.violetics.pw/api/downloader/facebook?apikey=beta&url=${args[0]}`)  
 let vioo = await vio.json()
 let videovio = `${vioo.result.hd.url || vioo.result.sd.url}`
-await conn.sendFile(m.chat, videovio, `error.mp4`, 'https://github.com/Khalid-official *HERE IS YOUR VIDEO*', m)
+await conn.sendFile(m.chat, videovio, `error.mp4`, 'https://github.com/jayden-official *HERE IS YOUR VIDEO*', m)
 } catch (err5) {
 console.log('5 ' + err5)    
 try {
 let res3 = await fetch(`https://latam-api.vercel.app/api/facebookdl?apikey=brunosobrino&q=${args[0]}`)  
 let json = await res3.json()
 let url3 = await json.video
-await conn.sendFile(m.chat, url3, 'error.mp4', 'https://github.com/Khalid-official *HERE IS YOUR VIDEO*', m)         
+await conn.sendFile(m.chat, url3, 'error.mp4', 'https://github.com/jayden-official *HERE IS YOUR VIDEO*', m)         
 } catch (err6) {
 console.log('6 ' + err6)    
 try {
 const { result } = await facebookdl(args[0]).catch(async _ => await facebookdlv2(args[0])).catch(async _ => await savefrom(args[0]))
-for (const { url, isVideo } of result.reverse()) await conn.sendFile(m.chat, url, `facebook.${!isVideo ? 'bin' : 'mp4'}`, 'https://github.com/Khalid-official *HERE IS YOUR VIDEO*', m)    
+for (const { url, isVideo } of result.reverse()) await conn.sendFile(m.chat, url, `facebook.${!isVideo ? 'bin' : 'mp4'}`, 'https://github.com/jayden-official *HERE IS YOUR VIDEO*', m)    
 } catch (err7) {
 console.log('7 ' + err7)    
-throw `https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] ERROR TRY AGAIN LATER BUDDY*`
+throw `https://github.com/jayden-official *[❗𝐈𝐍𝐅𝐎❗] ERROR TRY AGAIN LATER BUDDY*`
 }}}}}}}}}
 handler.command = /^(facebook|fb|facebookdl|fbdl|facebook2|fb2|facebookdl2|fbdl2|facebook3|fb3|facebookdl3|fbdl3|facebook4|fb4|facebookdl4|fbdl4|facebook5|fb5|facebookdl5|fbdl5)$/i
 export default handler
