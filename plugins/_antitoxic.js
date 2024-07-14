@@ -1,4 +1,4 @@
-const toxicRegex = /fuckyou|fuck|fala|stupid|imbecile|pussy|silly|mafi|umbwa|matako|dinywa|malaya|balls|mjinga/i
+const toxicRegex = /fuckyou|fuck|fala|stupid|imbecile|pussy|dick|silly|mafi|umbwa|matako|dinywa|malaya|balls|mjinga/i
 
 export async function before(m, { isAdmin, isBotAdmin, isOwner }) {
     if (m.isBaileys && m.fromMe)
