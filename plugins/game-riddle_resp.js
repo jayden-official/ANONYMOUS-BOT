@@ -14,7 +14,7 @@ m.reply(`*✅𝗖𝗢𝗥𝗥𝗘𝗖𝗧 𝗔𝗡𝗦𝗪𝗘𝗥✅!*\n+${this
 clearTimeout(this.tekateki[id][3])
 delete this.tekateki[id]
 } else if (similarity(m.text.toLowerCase(), json.response.toLowerCase().trim()) >= threshold) m.reply(`‼️𝗬𝗢𝗨   𝗔𝗟𝗠𝗢𝗦𝗧   𝗗𝗜𝗗 𝗜𝗧 𝗕𝗨𝗗𝗗𝗬‼️!`)
-else m.reply('‼️𝗜𝗡𝗖𝗢𝗥𝗥𝗘𝗖𝗧   𝗔𝗡𝗦𝗪𝗘𝗥   𝗕𝗟𝗨𝗗‼️')}
+else m.reply('‼️𝗜𝗡𝗖𝗢𝗥𝗥𝗘𝗖𝗧   𝗔𝗡𝗦𝗪𝗘𝗥   𝗕𝗟𝗨𝗗𝗗𝗬𝗙𝗨𝗖𝗞𝗜𝗡‼️')}
 return !0
 }
 handler.exp = 0
