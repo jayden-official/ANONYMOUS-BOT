@@ -1,11 +1,11 @@
-import similarity from 'similarity'
+uimport similarity from 'similarity'
 const threshold = 0.72
 let handler = m => m
 handler.before = async function (m) {
 let id = m.chat
 if (!m.quoted || !m.quoted.fromMe || !m.quoted.isBaileys || !/^ⷮ/i.test(m.quoted.text)) return !0
 this.tekateki = this.tekateki ? this.tekateki : {}
-if (!(id in this.tekateki)) return m.reply('❗𝗧𝗛𝗘 𝗤𝗨𝗘𝗦𝗧𝗜𝗢𝗡 𝗜𝗦 𝗔𝗟𝗥𝗘𝗔𝗗𝗬 𝗔𝗡𝗦𝗪𝗘𝗥𝗘𝗗❗')
+if (!(id in this.tekateki)) return m.reply('❗𝗧𝗛𝗜𝗦 𝗤𝗨𝗘𝗦𝗧𝗜𝗢𝗡 𝗜𝗦 𝗔𝗟𝗥𝗘𝗔𝗗𝗬 𝗔𝗡𝗦𝗪𝗘𝗥𝗘𝗗❗')
 if (m.quoted.id == this.tekateki[id][0].id) {
 let json = JSON.parse(JSON.stringify(this.tekateki[id][1]))
 if (m.text.toLowerCase() == json.response.toLowerCase().trim()) {
