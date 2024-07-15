@@ -7,7 +7,7 @@ let json = await res.json()
 if (!json.confirmed) throw 'País?'
 if (json.confirmed) m.reply(`
 🌏 País : ${text}
-✅Confirmado : ${json.confirmed.value}
+✅Confirmad : ${json.confirmed.value}
 📉curado : ${json.recovered.value}
 ☠️Muertes : ${json.deaths.value}
 💌Info Actualizada : ${json.lastUpdate}
