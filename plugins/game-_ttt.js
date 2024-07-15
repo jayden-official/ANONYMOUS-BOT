@@ -30,9 +30,9 @@ export async function before(m) {
         if (!isSurrender && 1 > (ok = room.game.turn(m.sender === room.game.playerO, parseInt(m.text) - 1))) {
             m.reply({
                 '-3': 'The game is over',
-                '-2': 'Inválid',
-                '-1': 'Position inválid',
-                0: 'Position inválid',
+                '-2': 'Invalid',
+                '-1': 'Position invalid',
+                0: 'Position invalid',
             }[ok])
             return !0
         }
