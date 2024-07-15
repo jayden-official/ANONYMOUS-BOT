@@ -11,11 +11,11 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
       }) * 1000
     }
     let muptime = clockString(_muptime)
-   m.reply(`╭────[ *𝐁𝐮𝐦𝐛𝐥𝐞🐝𝐛𝐞𝐞 𝐛𝐨𝐭* ]
+   m.reply(`╭────[ *𝐀𝐧𝐨𝐧𝐲𝐦𝐨𝐮𝐬 𓆈 𝐛𝐨𝐭* ]
 │🏮💛Bot active duration💛🏮
-│  🐝𝐆𝐈𝐓𝐇𝐔𝐁 https://github.com/Khalid-official 
-│🐝 𝐂𝐑𝐄𝐀𝐓𝐎𝐑: 𝐤𝐡𝐚𝐥𝐢𝐝 𝐭𝐞𝐜𝐡
-│🐝𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐍𝐔𝐌𝐁𝐄𝐑= wa.me/254736958034
+│  𓆈𝐆𝐈𝐓𝐇𝐔𝐁 https://github.com/jayden-official 
+│𓆈 𝐂𝐑𝐄𝐀𝐓𝐎𝐑: 𝐣𝐚𝐲𝐝𝐞𝐧 𝐭𝐞𝐜𝐡
+│𓆈𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐍𝐔𝐌𝐁𝐄𝐑= wa.me/254794597254
 ╰────────────────\n\n${muptime}`) 
 }
 handler.help = ['runtime']
