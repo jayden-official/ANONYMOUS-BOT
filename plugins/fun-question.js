@@ -1,4 +1,4 @@
-let handler = async (m, { command, text }) => m.reply(`https://github.com/Khalid-official 
+let handler = async (m, { command, text }) => m.reply(`https://github.com/jayden-official 
 *⁉️ 𝗤𝗨𝗘𝗦𝗧𝗜𝗢𝗡𝗦 ⁉️*
   
 *Questions:* ${text}
