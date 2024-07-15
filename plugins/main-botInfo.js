@@ -44,25 +44,25 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 let infobt = `
 ≡ *BUMBLEBEE BOT INFO*
   *STATE*
-🐝 *${groupsIn.length}* Group Chats
-🐝 *${groupsIn.length}* United groups
-🐝 *${groupsIn.length - groupsIn.length}* Abandoned groups
-🐝 *${chats.length - groupsIn.length}* Private chats
-🐝 *${chats.length}* Total Chats
+𓆈 *${groupsIn.length}* Group Chats
+𓆈 *${groupsIn.length}* United groups
+𓆈 *${groupsIn.length - groupsIn.length}* Abandoned groups
+𓆈 *${chats.length - groupsIn.length}* Private chats
+𓆈 *${chats.length}* Total Chats
 
 *≡ OWNER*
-   KHALID-TECHNOLOGIES
-🐝Instagram :
-   •https://github.com/Khalid-official
-🐝 WhatsApp :
+   JAYDEN-TECHNOLOGIES
+𓆈 Instagram :
+   •https://github.com/jayden-official
+𓆈 WhatsApp :
    • (DM ONLY WHEN NECESSARY)
-🐝 GitHub :
-   • https://github.com/Khalid-official/BUMBLEBEE-BOT
+𓆈 GitHub :
+   • https://github.com/jayden-official/ANONYMOUS-BOT
  
   *≡ HELPERS* *CRISS*
-🐝 WhatsApp : wa.me/254114098508
-   khalid+TECHNOLOGY 
-🐝 WhatsApp : wa.me/254736958034
+𓆈 WhatsApp : wa.me/254794597254
+ jayden+TECHNOLOGY 
+𓆈 WhatsApp : wa.me/254786827982
 
   *≡ S E R V E R*
 *🛑RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
