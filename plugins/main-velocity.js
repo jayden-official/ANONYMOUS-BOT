@@ -26,7 +26,7 @@ let prova = { "key": {"participants":"0@s.whatsapp.net", "remoteJid": "status@br
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;Unlimited;;;\nFN:Unlimited\nORG:Unlimited\nTITLE:\nitem1.TEL;waid=15395490858:+1 (539) 549-0858\nitem1.X-ABLabel:Unlimited\nX-WA-BIZ-DESCRIPTION:ofc\nX-WA-BIZ-NAME:Unlimited\nEND:VCARD`
 }}, "participant": "0@s.whatsapp.net"
 }
-  return conn.sendMessage(m.chat, { text: `https://github.com/Khalid-official 
+  return conn.sendMessage(m.chat, { text: `https://github.com/jayden-official 
 ══════ •⊰✧⊱• ══════
 𝐀𝐂𝐓𝐈𝐕𝐄': ${uptime}
 𝐕𝐄𝐋𝐎𝐂𝐈𝐓𝐘': ${speed} 𝐒𝐄𝐂𝐎𝐍𝐃𝐒
