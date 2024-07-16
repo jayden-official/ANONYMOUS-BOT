@@ -28,7 +28,7 @@
 -  [click here](https://api.fgmods.xyz)
 
 ### For example
-In case of doubt, before installing BUMBLEBEE-BOT, test the bot here
+In case of doubt, before installing ANONYMOUS-BOT, test the bot here
 
 [![WhatsApp](https://img.shields.io/badge/ANONYMOUS-BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://linkbio.co/6032406az4dFk) 
 
