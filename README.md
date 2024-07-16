@@ -37,7 +37,7 @@ In case of doubt, before installing ANONYMOUS-BOT, test the bot here
 ***
 
 #### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jayden-official/ANONYMOUS-BOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/jayden-official/ANONYMOUS-BOT)
 
 #### Heroku Buildpack
 | BuildPack | LINK |
