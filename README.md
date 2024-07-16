@@ -3,7 +3,7 @@
 <img src="https://komarev.com/ghpvc/?username=jayden-official&color=brightgreen" />
 
 <p align="center">
-    <a href="https://ibb.co/N6NMDtn"><img src="https://telegra.ph/file/a1fd461c49539f754af23.jpg" alt="01" border="0" /></a>
+    <a href="https://ibb.co/N6NMDtn"><img src="https://telegra.ph/file/a2d645fe826fd48f22b80.jpg" alt="01" border="0" /></a>
 <p/>
 <p align="center">
 <a href="https://github.com/jayden-official"><img title="Author" src="https://img.shields.io/badge/ANONYMOUS-BOT-black?style=for-the-badge&logo=whatsApp"></a>
