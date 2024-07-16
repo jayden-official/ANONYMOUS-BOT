@@ -1,7 +1,7 @@
 import { createHash } from 'crypto'
 let handler = async function (m, { conn, text, usedPrefix }) {
 let sn = createHash('md5').update(m.sender).digest('hex')
-m.reply(`https://github.com/Khalid-official ┏┅━━━━━━━━━━━━ ┅ ━
+m.reply(`https://github.com/jayden-official ┏┅━━━━━━━━━━━━ ┅ ━
 ┃ *𝐒𝐄𝐑𝐈𝐀𝐋 𝐍𝐔𝐌𝐁𝐄𝐑 :* 
 ┃ ${sn}
 ┗┅━━━━━━━━━━━━ ┅ ━`.trim())}
