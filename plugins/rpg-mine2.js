@@ -16,7 +16,7 @@ let minar = `${pickRandom(['What pro 😎 have you mined',
 '🛣️ You have found a place and by mining said place you get',
 '👾 Thanks to the fact that you have undermined your income add up',
 'Congratulations!! Now you have','⛏️⛏️⛏️ You get'])}`
-let pp = 'https://movieposterhd.com/wp-content/uploads/2018/12/Bumblebee-2018-Poster-HD-.jpg'
+let pp = 'https://movieposterhd.com/wp-content/uploads/2018/12/Anonymous-2018-Poster-HD-.jpg'
 let aqua = `${pickRandom([0, 2, 3, 1, 5])}` * 1
 let aquapremium = `${pickRandom([2, 4, 6, 7, 5, 9])}` * 1
 let rock = `${pickRandom([6, 9, 0, 12, 2])}` * 1
