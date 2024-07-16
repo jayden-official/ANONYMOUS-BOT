@@ -2,13 +2,13 @@ import * as baileys from '@adiwajshing/baileys'
 
 let handler = async (m, { conn, text }) => {
 	let [, code] = text.match(/chat\.whatsapp\.com\/(?:invite\/)?([0-9A-Za-z]{20,24})/i) || []
-	if (!code) throw 'https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] enter the group link*'
+	if (!code) throw 'https://github.com/jayden-official *[❗𝐈𝐍𝐅𝐎❗] enter the group link*'
 	let res = await conn.query({ tag: 'iq', attrs: { type: 'get', xmlns: 'w:g2', to: '@g.us' }, content: [{ tag: 'invite', attrs: { code } }] }),
 		data = extractGroupMetadata(res),
 		txt = Object.keys(data).map(v => `*${v.capitalize()}:* ${data[v]}`).join('\n'),
 		pp = await conn.profilePictureUrl(data.id, 'image').catch(console.error)
 	if (pp) return conn.sendMessage(m.chat, { image: { url: pp }, caption: txt }, { quoted: m })
-	let groupinfo = `⫹⫺𝙸𝙳: ${data.id}\n⫹⫺ 𝐍𝐀𝐌𝐄: ${data.subject}\n⫹⫺ 𝐂𝐑𝐄𝐀𝐓𝐎𝐑: ${data.creation}\n⫹⫺ 𝐎𝐖𝐍 𝐄𝐑: ${data.owner}\n⫹⫺ 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍:\n${data.desc}`
+	let groupinfo = `⫹⫺𝙸𝙳: ${data.id}\n⫹⫺ 𝐍𝐀𝐌𝐄: ${data.subject}\n⫹⫺ 𝐂𝐑𝐄𝐀𝐓𝐎𝐑: ${data.creation}\n⫹⫺ 𝐎𝐖𝐍𝐄𝐑: ${data.owner}\n⫹⫺ 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍:\n${data.desc}`
 	await conn.reply(m.chat, groupinfo, m)
 	//m.reply(txt)
 }
