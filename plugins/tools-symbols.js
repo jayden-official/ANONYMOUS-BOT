@@ -17,7 +17,7 @@ const handler = async (m, {conn, usedPrefix}) => {
   const old = performance.now();
   const neww = performance.now();
   const speed = neww - old;
-  const info = `https://github.com/Khalid-official 𝗧𝗔𝗕𝗟𝗘 𝐁𝐘: ~𝗯𝘂𝗺𝗯𝗹𝗲𝗯𝗲𝗲~ꪶ⃬🎪ꫂཽ🔥
+  const info = `https://github.com/jayden-official 𝗧𝗔𝗕𝗟𝗘 𝐁𝐘: ~𝗮𝗻𝗼𝗻𝘆𝗺𝗼𝘂𝘀~ꪶ⃬🎪ꫂཽ🔥
 
 
 𝗧𝗔𝗕𝗟𝗘 𝗙𝗢𝗥 𝗟𝗘𝗧𝗧𝗘𝗥𝗦 🌀
@@ -282,7 +282,7 @@ H⃟༻ I⃟༻ J⃟༻K⃟༻ L⃟༻M⃟༻ N⃟༻O⃟༻ P⃟༻ Q⃟༻R⃟
 
 ৢۜ͜͡  -  ๖ۣۜ͡ஓீ͜͜͡❥  -  ঔৣ͜͡ீ͜❥͜  -   ू ፝͜❥  -  ৎ❥̤֟٭ۣۜ  -  ✦ۣۜۜ☆ۣۜۜ͜͡   -  ঔৣֳ᷌᷈͜͡❀  -   ৎ✿̤֟٭  -  ✦҈͜͡➳  -  ঔৣ͜͡➳  -  ๖ۣۜ͡ஓீ͜͡   -  ஓீ͜͡   -    - ஓீ͜  -  ్మాై  -   ೈ፝͜͡๖ۣۜ   -   ೈ ፝  -   ீ͜ৡৢ͜͡    -   ๖ۣۜۜ͜͡ீ͜   -  ঔৣ͜͡   -  ৢۜ͜͡⍣   -  🔥፝⃟    -   ꦿ⃟ۜ✯  -     ⃟ۣ❃ -  ༻⃟༆  -  ༆⃟᠁  -  ွဳ⃟ꦿ  -  💸⃟ꦿ⸼  -  ⋆⃟ۣۜ᭪➣  -    ⃘⃤꙰
 
-𝐁𝐘: BUMBLE🐝 BEE 🎪ꫂཽ🔥
+𝐁𝐘: ANONYMOUS BOT 🎪ꫂཽ🔥
 `.trim();
   conn.reply(m.chat, info, m, {
     contextInfo: {externalAdReply: {mediaUrl: null, mediaType: 1, description: null,
