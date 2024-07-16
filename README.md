@@ -3,7 +3,7 @@
 <img src="https://komarev.com/ghpvc/?username=jayden-official&color=brightgreen" />
 
 <p align="center"> 
-<img src="https://telegra.ph/file/4cc680871613cba423b8b.jpg" />
+<img src="https://telegra.ph/file/998cb1994eafc039e2a8f.jpg" />
 </p>
 
 <p/>
