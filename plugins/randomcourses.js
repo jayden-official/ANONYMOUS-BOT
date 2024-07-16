@@ -6,7 +6,7 @@ let handler = async (m, { conn }) => {
     if (!res.ok) throw await res.text();
     let json = await res.json();
 
-    if (!json.courses || json.courses.length < 5) throw 'https://github.com/Khalid-official Not enough courses found';
+    if (!json.courses || json.courses.length < 5) throw 'https://github.com/jayden-official Not enough courses found';
 
     let courseData = '•───── ୨❀୧ ─────•\n';
 
