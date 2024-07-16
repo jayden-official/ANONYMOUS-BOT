@@ -4,7 +4,7 @@ import fetch from 'node-fetch'
 let handler = async(m, { conn, usedPrefix, participants, isPrems }) => {
 let pp = 'https://i.imgur.com/WHjtUae.jpg'
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-if (!(who in global.db.data.users)) throw `https://github.com/Khalid-official  The user you are mentioning is not registered in my database`
+if (!(who in global.db.data.users)) throw `https://github.com/jayden-official  The user you are mentioning is not registered in my database`
 try {
 pp = await conn.profilePictureUrl(who)
 } catch (e) {
