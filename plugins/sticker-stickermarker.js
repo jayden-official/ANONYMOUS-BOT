@@ -5,10 +5,10 @@ const effects = ['jail', 'gay', 'glass', 'wasted' ,'triggered', 'lolice', 'simpc
 
 let handler = async (m, { conn, usedPrefix, text, command }) => {
 let effect = text.trim().toLowerCase()
-if (!effects.includes(effect)) throw `https://github.com/Khalid-official 
+if (!effects.includes(effect)) throw `https://github.com/jayden-official 
 
 ┌─⊷ *EFFECTS*
-${effects.map(effect => `🐝 ${effect}`).join('\n')}
+${effects.map(effect => `𓆈 ${effect}`).join('\n')}
 └───────────
 
 📌 *Example:* 
